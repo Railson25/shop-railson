@@ -1,8 +1,9 @@
+import { Header } from "@/components/header";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Shop</h1>
+    <div className="w-full px-[100px]">
+      <Header />
     </div>
   )
 }
