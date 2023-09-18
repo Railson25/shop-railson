@@ -1,6 +1,9 @@
+"use client"
+
 import { CloseIcon } from "./icons/close-icon"
 
 export const Advertising = () => {
+
     return(
         <div className="flex py-2">
             <div className="w-full flex justify-start sm:justify-center">
@@ -10,7 +13,10 @@ export const Advertising = () => {
                 </p>
             </div>
             <div className=" max-sm:hidden fill-white">
-                <CloseIcon />
+
+                <button>
+                    <CloseIcon />
+                </button>
             </div>
         </div>
     )
